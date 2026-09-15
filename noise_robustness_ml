@@ -244,7 +244,7 @@ for name, model in models_dict.items():
 
 print("\n" + "=" * 60)
 print("FINAL ML MODEL COMPARISON — BEED Binary Classification")
-print(f"(Gaussian Noise σ = {NOISE_SIGMA} on normalised features)")
+print(f"(Gaussian Noise σ = {NOISE_SIGMA} on normalised features)") 
 print("=" * 60)
 
 results_df = pd.DataFrame(results)
